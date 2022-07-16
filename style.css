@@ -1,0 +1,49 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(136, 155, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main__box{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+.display__box{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(193, 190, 190);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.output{
+    background-color: rgb(193, 190, 190);
+    border: none;
+    border-radius: 10px;
+}
+.row1,.row2,.row3,.row4{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.element{
+    height:6px ;
+    width: 45px;
+    text-align: center; 
+    border:1px solid rgb(41, 39, 39); 
+    padding: 20px;
+}
+.cross{
+    cursor: pointer;
+}
